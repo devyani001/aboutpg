@@ -1,0 +1,270 @@
+            /* Laptop  */
+
+            @media screen and (max-width: 991px) {
+
+            }
+
+            /* Tablet  */
+
+            @media screen and (max-width: 767px) {
+                
+            }
+
+            /* Mobile */
+
+            @media screen and (max-width: 479px) {
+
+                /* 1st page */
+
+                .header,
+                image {
+                    background-position: 800px;
+                }
+
+                .main-text h1 {
+                    font-size: 25px;
+                    color: white;
+                }
+
+                .logo {
+                    border: 2px solid none;
+                    height: 95px;
+                    width: 130px;
+                    background-position: start;
+                    margin-left: 0;
+                }
+
+                .left-side {
+                    color: #fff;
+                    border: 1px solid none;
+                    font-family: "Jacquard 12", system-ui;
+                    font-size: 50px;
+                    margin-left: 0px;
+                    margin-top: 10px;
+                    letter-spacing: 1px;
+                    overflow: initial;
+                }
+
+                .navbar {
+                    border: 2px solid none;
+                    flex: 1;
+                    align-self: start;
+                    text-align: right;
+                    background-color: #9aa5b1;
+                    background-size: cover;
+                    position: absolute;
+                    height: 100vh;
+                    font-size: 16px;
+                    left: -500px;
+                    padding: 20px 50px;
+                    top: 100px;
+                    width: 100%;
+                    transition: 0.2s ease-in-out;
+                }
+
+                .navbar.active {
+                    left: 0px;
+                    z-index: 2;
+                }
+
+                .navbar ul li a {
+                    color: #0d2436;
+                    text-decoration: none;
+                    /* display: none; */
+                    /* background-color: wheat; */
+                }
+
+                .navbar ul {
+                    display: flex;
+                    flex-wrap: wrap;
+                    flex-direction: column;
+                }
+
+                .content {
+                    /* background-color: aliceblue; */
+                }
+
+                .burger {
+                    display: block;
+                    color: yellow;
+                    margin-right: 20px;
+                }
+
+                .main-text p {
+                    font-size: 15px;
+                    color: #fff;
+                }
+
+                /* 2nd page */
+
+                .icon {
+                    display: block;
+                    color: green;
+
+                }
+
+                .containerr {
+                    flex-direction: row;
+                }
+
+                .left-side {
+                    width: 100%;
+                }
+
+                .subheading {
+                    font-size: 16px;
+                }
+
+
+                .clg-image {
+                    width: 100%;
+                    /* padding-inline: 12px; */
+                    /* grid-auto -rows: 220px;  */
+                }
+
+                .container {
+                    flex-direction: column;
+                }
+
+                .gallary {
+                    width: 100%;
+                    padding-inline: 12px;
+                    grid-auto-rows: 190px;
+                }
+
+                .box {
+                    grid-row: span 1;
+                    grid-column: span 3;
+                }
+
+                #box-8 {
+                    grid-area: 1 / 1 / 1 / 4;
+                }
+
+
+                /* 3rd page */
+
+                .last-page {
+                    background-image: url("f0f4eead-3616-462f-b3ae-0b1966110914.jpg");
+                    background-size: cover;
+                    background-position: center;
+                    height: 740px;
+                    width: 100%;
+                }
+
+                video {
+                    /* align-items: start; */
+                    width: 100%;
+                    height: 420px;
+                    position: absolute;
+                    left: 0;
+                    border: 20x solid rebeccapurple;
+                    top: 3450px;
+                    margin-left: 0px;
+                    /* margin: 20px; */
+
+                    /* padding-top: 50px;
+                        padding-bottom: 100px;
+                        margin-left: 0;
+                        padding-left: 0; */
+                }
+
+
+                .smallbox {
+                    border: 2px solid none;
+                    width: 100%px;
+                    height: 250px;
+                    /* margin:20px; */
+                }
+
+                .footer {
+                    height: 760px;
+                    padding: 0px;
+                }
+
+                .bigbackground {
+                    text-align: center;
+                    margin-top: 100px;
+                    position: absolute;
+                    /* bottom: 500px; */
+                    top: 2950px;
+                }
+
+                .background {
+                    margin-top: 30px;
+                    padding: 0 30px;
+                    /* position: absolute; */
+                    /* top: 3100px; */
+                }
+
+                #aboutus {
+
+                    color: greenyellow;
+                    margin-bottom: 00px;
+                }
+
+                #text {}
+
+
+                /* footer */
+
+                .owner {
+                    position: absolute;
+                    left: 40px;
+                    color: rgb(254, 254, 254);
+                    font-size: 15px;
+                }
+
+                .devil-emoji {
+                    position: absolute;
+                    left: 315px;
+                    color: rgb(255, 255, 255);
+                }
+
+                .uprfooter {
+                    position: absolute;
+                    top: 4000px;
+                    left: 0;
+                    color: rgb(255, 255, 255);
+                    text-align: center;
+                    margin: 0px 35px;
+                    /* font-family: "playfair display"; */
+                    font-size: 15px;
+                }
+
+                .icons {
+                    color: yellow;
+                    position: absolute;
+                    border: 2px solid yellow;
+                    width: 100%;
+                    position: absolute;
+                    /* padding-top: 10px;  */
+                    top: 100;
+                    right: 0;
+                }
+
+                .follow {
+                    position: absolute;
+                    /* bottom: 0px; */
+                    left: 90px;
+
+                }
+
+
+
+
+
+                /* about page */
+
+                .aboutpage img{ 
+                    width: 100%;
+                    height: 200px;
+                    background-image: url("https://ideogram.ai/assets/image/lossless/response/GGP1JCM1Q7quJOuLXyjmMw");
+                    /* padding-left: 20px; */
+                    /* padding-right: 20px; */
+                     
+                }
+
+
+
+            }
